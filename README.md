@@ -1,5 +1,18 @@
-# Vue 3 + TypeScript + Vite
+![](img/logo.png)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# 简介
+## LMTR
+LMTR，Liteyuki Minecraft Transit Railway，轻雪铁路，亦可简称轻铁，服务于Liteyuki Minecraft Server的官方铁路系统。目标是为Liteyuki Minecraft Server的玩家提供一个便捷、快速、安全的交通方式，使玩家能够更好地探索Liteyuki Minecraft Server的世界。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 乘搭指南
+LMTR使用「羽币」作为交易货币，乘客可在任意车站乘搭
+
+## 线路图
+### 中央线(Central Line)
+![](img/railmap/central_line.svg)
+
+### 花溪线(Fleur Line)
+![](img/railmap/fleur_line.svg)
+
+### 离岛线(Island Line)
+![](img/railmap/island_line.svg)
