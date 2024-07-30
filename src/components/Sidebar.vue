@@ -14,26 +14,23 @@ const props = defineProps({
             <img id="logo" :src="logo" alt="logo"/>
         </div>
         <div class="sidebar-content">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
+            <div class="option">首页</div>
+            <div class="option">关于</div>
+            <div class="option">疑问</div>
+            <div class="option">加入</div>
         </div>
     </div>
 </template>
 
 <style scoped>
 .sidebar {
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
     width: 300px;
     height: 100%;
-    background-color: #fff;
-    box-shadow: 40px 0 40px rgba(0, 0, 0, 0.1);
+    background-color: var(--white-color);
     transform: translateX(-100%);
     transition: transform 0.3s;
 }
@@ -49,6 +46,11 @@ const props = defineProps({
 }
 
 .sidebar.open {
+    box-shadow: 8px 0 8px rgba(0, 0, 0, 0.4);
     transform: translateX(0);
+}
+
+.sidebar-content{
+    padding-left: 20px;
 }
 </style>

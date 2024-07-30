@@ -20,8 +20,6 @@ const closeSidebar = () => {
             <Navbar :toggleSidebar="toggleSidebar"/>
             <Sidebar :isSidebarOpen="isSidebarOpen"/>
         </div>
-
-
         <Content/>
     </div>
 
@@ -33,7 +31,4 @@ const closeSidebar = () => {
     z-index: 1;
 }
 
-.shadow {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
 </style>

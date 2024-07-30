@@ -30,13 +30,13 @@ const props = defineProps({
 
 <style scoped>
 .navbar {
-    z-index: 2;
+    z-index: 3;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 80px;
-    background-color: #fff;
+    height: 100px;
+    background-color: var(--white-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
