@@ -4,7 +4,11 @@ import logo from "../assets/logo.png";
 import sidebarButton from "../assets/ui/sidebarButton.svg";
 
 const props = defineProps({
-    toggleSidebar: Function
+    toggleSidebar: {
+        type: Object as () => { (payload: MouseEvent): void },
+        required: true,
+        validator: (value: any): boolean => typeof value === 'function'
+    }
 });
 
 </script>

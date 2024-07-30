@@ -16,9 +16,11 @@ const closeSidebar = () => {
 
 <template>
     <div @click="closeSidebar" :class="{shadow: isSidebarOpen}">
+        <div class="container">
+            <Navbar :toggleSidebar="toggleSidebar"/>
+            <Sidebar :isSidebarOpen="isSidebarOpen"/>
+        </div>
 
-        <Navbar :toggleSidebar="toggleSidebar"/>
-        <Sidebar :isSidebarOpen="isSidebarOpen"/>
 
         <Content/>
     </div>
@@ -26,6 +28,11 @@ const closeSidebar = () => {
 </template>
 
 <style scoped>
+.container {
+    position: relative;
+    z-index: 1;
+}
+
 .shadow {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
