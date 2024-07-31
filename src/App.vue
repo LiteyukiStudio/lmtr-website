@@ -2,7 +2,6 @@
 import {ref} from "vue"
 import Navbar from "./components/Navbar.vue";
 import Sidebar from "./components/Sidebar.vue";
-import Content from "./components/Content.vue";
 
 let isSidebarOpen = ref(false)
 const toggleSidebar = () => {
@@ -20,7 +19,7 @@ const closeSidebar = () => {
             <Navbar :toggleSidebar="toggleSidebar"/>
             <Sidebar :isSidebarOpen="isSidebarOpen"/>
         </div>
-        <Content/>
+        <router-view/>
     </div>
 
 </template>

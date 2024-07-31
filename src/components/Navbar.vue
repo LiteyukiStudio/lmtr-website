@@ -23,7 +23,7 @@ const props = defineProps({
             <img id="logo" :src="logo" alt="logo"/>
         </div>
         <div class="navbar-right">
-
+            Eng
         </div>
     </div>
 </template>
@@ -35,13 +35,13 @@ const props = defineProps({
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 100px;
+    height: 80px;
     background-color: var(--white-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-left img {
-    height: 50px;
+    height: 40px;
 }
 
 .navbar-left,

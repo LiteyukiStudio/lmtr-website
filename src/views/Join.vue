@@ -3,7 +3,7 @@
 </script>
 
 <template>
-
+加入
 </template>
 
 <style scoped>
