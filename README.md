@@ -1,4 +1,4 @@
-![](./img/logo.png)
+![](https://cdn.liteyuki.icu/static/lmtr/logo.png)
 
 # 简介
 ## LMTR
@@ -9,10 +9,10 @@ LMTR使用「羽币」作为交易货币，乘客可在任意车站乘搭
 
 ## 线路图
 ### 中央线(Central Line)
-![](./img/railmap/central_line.svg)
+![](https://cdn.liteyuki.icu/static/lmtr/railmap/central_line.svg)
 
 ### 花溪线(Fleur Line)
-![](./img/railmap/fleur_line.svg)
+![](https://cdn.liteyuki.icu/static/lmtr/railmap/fleur_line.svg)
 
 ### 离岛线(Island Line)
-![](./img/railmap/island_line.svg)
+![](https://cdn.liteyuki.icu/static/lmtr/railmap/island_line.svg)
