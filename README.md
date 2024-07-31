@@ -1,4 +1,4 @@
-![](https://cdn.liteyuki.icu/static/lmtr/logo.png)
+![](https://cdn.liteyuki.icu/static/lmtr/logo_re.png)
 
 # 简介
 ## LMTR
